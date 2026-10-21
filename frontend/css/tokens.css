@@ -1,0 +1,99 @@
+/*
+ * Tokens de diseño.
+ * Tipografía: IBM Plex Sans + IBM Plex Mono (sistema Carbon de IBM). Distingue 1/l/I y 0/O
+ * en claves y números de serie, y tiene cifras tabulares para tablas.
+ * Color: neutros cálidos (papel), azul marino como color de acción y naranja de etiqueta
+ * de inventario como acento, reservado para estados activos y foco.
+ */
+:root {
+  /* Superficies (neutros cálidos) */
+  --bg: #f3f1ec;
+  --surface: #ffffff;
+  --surface-2: #faf8f4;
+  --surface-hover: #f1eee8;
+  --border: #e1ddd4;
+  --border-strong: #c9c2b5;
+
+  /* Texto */
+  --text: #1f1d1a;
+  --text-muted: #5c564d;
+  --text-subtle: #766e62;
+  --text-inverse: #ffffff;
+
+  /* Acción principal: azul marino */
+  --primary: #22375a;
+  --primary-hover: #182944;
+  --primary-soft: #e6ebf2;
+  --primary-ring: rgba(34, 55, 90, 0.25);
+
+  /* Acento: naranja de etiqueta de inventario */
+  --accent: #c2501a;
+  --accent-soft: #fbeee6;
+  --accent-ring: rgba(194, 80, 26, 0.35);
+
+  /* Navegación lateral */
+  --nav-bg: #1b2130;
+  --nav-bg-hover: #252d40;
+  --nav-active: #2c354b;
+  --nav-border: rgba(255, 255, 255, 0.08);
+  --nav-text: #c8cdd8;
+  --nav-text-strong: #ffffff;
+  --nav-muted: #8a92a5;
+  --avatar-bg: #3a4560;
+
+  /* Estados */
+  --success: #2e7a4b;
+  --success-soft: #e8f3ec;
+  --success-border: #bfdcc9;
+  --success-ink: #1d4d30;
+  --info: #2b5797;
+  --info-soft: #e9eff8;
+  --info-border: #c6d5ea;
+  --info-ink: #1d3a63;
+  --warning: #93600a;
+  --warning-soft: #fbf1df;
+  --warning-border: #ecd3a3;
+  --warning-ink: #5c3c06;
+  --danger: #b0281b;
+  --danger-hover: #8f1f15;
+  --danger-soft: #fbebe8;
+  --danger-border: #efc4bd;
+  --danger-ink: #6e1810;
+  --danger-row: #fdf6f4;
+  --danger-row-hover: #fbece8;
+  --neutral: #5c564d;
+  --neutral-soft: #eeebe5;
+
+  --overlay: rgba(27, 33, 48, 0.5);
+
+  /* Tipografía */
+  --font: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", Consolas, monospace;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1.0625rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+
+  /* Espaciado */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  /* Forma: esquinas cortas y bordes en lugar de sombras difusas */
+  --radius-sm: 3px;
+  --radius: 4px;
+  --radius-lg: 6px;
+  --shadow-sm: none;
+  --shadow: 0 2px 6px rgba(31, 29, 26, 0.12);
+  --shadow-lg: 0 16px 40px rgba(27, 33, 48, 0.28);
+
+  --sidebar-w: 248px;
+  --topbar-h: 60px;
+  --statusbar-h: 32px;
+}

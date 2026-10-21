@@ -1,0 +1,8 @@
+# Configuración local del entorno de desarrollo
+.claude/
+
+# Archivos temporales de Office y del sistema
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
