@@ -12,7 +12,7 @@ const defaults = {
    *         esta pestaña del navegador y NO se guardan en el servidor.
    * false = consume el back end real en apiBaseUrl.
    */
-  useMock: true,
+  useMock: false,
   /** Tiempo máximo de espera por petición, en milisegundos. */
   requestTimeoutMs: 15000,
   /** Plazo del préstamo (RB-02). Solo se usa para mostrar la fecha prevista; la calcula el servidor. */
